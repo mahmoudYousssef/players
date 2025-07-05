@@ -8,7 +8,7 @@ function Header() {
   const router = useRouter()
   const { data: session } = useSession()
   console.log("session", session)
-
+ 
   return (
     <div className='flex justify-between p-4'>
       <img width={130} src='/images/logo.png' />
