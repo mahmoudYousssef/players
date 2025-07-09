@@ -11,9 +11,8 @@ export default function App({
   return (
     <SessionProvider 
       session={session}
-      // إعدادات إضافية لتحسين الأمان
-      refetchInterval={5 * 60} // إعادة التحقق من الجلسة كل 5 دقائق
-      refetchOnWindowFocus={true} // إعادة التحقق عند تركيز النافذة
+        refetchInterval={5 * 60} 
+      refetchOnWindowFocus={true} 
     >
       <Head>
         <meta charSet="utf-8" />

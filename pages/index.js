@@ -44,5 +44,5 @@ export default function Home() {
       <GameImages />
       {posts? <Posts posts={posts}/>: null}
     </>
-  );
+  )
 }
